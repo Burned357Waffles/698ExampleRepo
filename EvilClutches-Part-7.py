@@ -238,14 +238,6 @@ def main():
         demon_group.update()
         fireball_group.update()
 
-        # Draw all sprites
-        dragon_group.draw(window)
-        boss_group.draw(window)
-        demon_group.draw(window)
-
-        fireball_group.clear()
-
-        check_collisions()
 
         # Animate the dragon, boss, and demons
         animate_sprite(dragon)
