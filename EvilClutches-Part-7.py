@@ -242,7 +242,8 @@ def main():
         dragon_group.draw(window)
         boss_group.draw(window)
         demon_group.draw(window)
-        fireball_group.draw(window)
+
+        fireball_group.clear()
 
         check_collisions()
 
