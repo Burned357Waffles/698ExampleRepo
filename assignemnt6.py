@@ -137,6 +137,8 @@ class Projectile(pygame.sprite.Sprite):
             self.kill()
             print("killing sprite")
 
+            if (self.x_pos == 5):
+                print(5)
 
 def init_animation_frames(file_name, frame_width, frame_height, frame_count):
     """
