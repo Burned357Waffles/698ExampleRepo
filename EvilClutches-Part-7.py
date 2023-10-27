@@ -237,7 +237,8 @@ def main():
         boss.update()
         demon_group.update()
         fireball_group.update()
-
+         
+        print("hello")
 
         # Animate the dragon, boss, and demons
         animate_sprite(dragon)
