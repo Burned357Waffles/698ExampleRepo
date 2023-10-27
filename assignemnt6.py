@@ -135,7 +135,8 @@ class Projectile(pygame.sprite.Sprite):
 
         if not (WINDOW_WIDTH >= self.x_pos >= 0 - self.rect.width):
             self.kill()
-
+            if (self.x_pos == 5):
+                print(5)
 
 def init_animation_frames(file_name, frame_width, frame_height, frame_count):
     """
