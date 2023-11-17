@@ -47,6 +47,11 @@ BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 GAME_OVER_TEXT_COLOR = (200, 0, 0)
 
+#Adding Music
+pygame.mixer.init()
+pygame.mixer.music.load("Music.mp3")
+pygame.mixer.music.play(loops=-1)
+
 # Create the window
 window = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT), pygame.RESIZABLE)
 pygame.display.set_caption("EvilClutches")
